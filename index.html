@@ -38,7 +38,7 @@
 
     function encriptar(){
     const text = document.querySelector("#inputTexto").value;
-    const textoCifrado = text.replace(/a/gi,"ai").replace(/e/gi,"enter").replace(/i/gi,"imes").replace(/o/gi,"ober").replace(/u/gi,"ufat");
+    const textoCifrado = text.replace(/e/gi,"enter").replace(/i/gi,"imes").replace(/a/gi,"ai").replace(/o/gi,"ober").replace(/u/gi,"ufat");
     document.querySelector("#inputTexto2").value = textoCifrado;
     document.getElementById("inputTexto").value = " ";
     }
